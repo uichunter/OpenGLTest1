@@ -110,6 +110,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="hexahedron.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertexShader.cg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGLTest1.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cg.lib" />
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgD3D10.lib" />
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgD3D11.lib" />
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgD3D9.lib" />
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgGL.lib" />
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\glut32.lib" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

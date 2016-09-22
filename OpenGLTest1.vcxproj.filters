@@ -14,4 +14,37 @@
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="hexahedron.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="vertexShader.cg" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OpenGLTest1.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgD3D9.lib">
+      <Filter>Header Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgD3D10.lib">
+      <Filter>Header Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgD3D11.lib">
+      <Filter>Header Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cgGL.lib">
+      <Filter>Header Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\glut32.lib">
+      <Filter>Header Files</Filter>
+    </Library>
+    <Library Include="..\..\..\..\..\Program Files (x86)\NVIDIA Corporation\Cg\lib\cg.lib">
+      <Filter>Header Files</Filter>
+    </Library>
+  </ItemGroup>
 </Project>
